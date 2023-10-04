@@ -1,0 +1,37 @@
+<style>
+    body {
+      background: #DA30D4;
+    }
+    div {
+      position: absolute;
+    }
+    .c {
+      top: 50px;
+      left: 100px;
+      width: 0px;
+      height: 0px;
+      border-radius: 100px;
+      border: 100px solid #0C0C49;
+      border-top-color: #DA30D4;
+      -webkit-transform: rotate(225deg);
+      /* so basically its a div of h=0,w=0 that has a large border, you make the top border a different color, then you make the border a complete cirlce and spin it so that you get the 3/4 circle */
+    }
+    .l {
+      top: 210px;
+      left: 180px;
+      background: #0C0C49;
+      height: 90px;
+      width: 40px;
+    }
+    .i {
+      height: 120px;
+      width: 120px;
+      left: 140px;
+      top: 90px;
+      background: #DA30D4;
+      border-radius: 100%;
+    }
+  </style>
+  <div class="c"></div>
+  <div class="i"></div>
+  <div class="l"></div>
